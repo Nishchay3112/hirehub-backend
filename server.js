@@ -28,7 +28,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin:" https://hirehub-frontend-kappa.vercel.app/",
+    origin:"https://hirehub-frontend-kappa.vercel.app",
     credentials: true,
   })
 );
