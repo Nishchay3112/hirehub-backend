@@ -85,7 +85,7 @@ const login = async (req, res) => {
       httpOnly: true,
       secure: true,
       sameSite: "None",
-    }
+    });
 
     res.status(200).json({
       success: true,
